@@ -60,7 +60,7 @@ template <utility::Streamable... Ts>
             }
 
             try {
-                result.append(str_args[ind]);
+                result.append(str_args.at(ind));
             } catch (const std::out_of_range& ex) {
                 throw utility::FormatArgumentsException(
                     "Not enough arguments given"
