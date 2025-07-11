@@ -1,6 +1,7 @@
-#include <gtest/gtest.h>
 #include <format.hpp>
 #include <exceptions.hpp>
+
+#include <gtest/gtest.h>
 
 class FormatTest : public ::testing::Test {
 protected:
